@@ -23,7 +23,7 @@
 .card {
   border: solid 1px lightgrey;
   border-radius: 20px;
-  width: 550px;
+  width: 500px;
   height: 250px;
   display: flex;
   align-items: center;
