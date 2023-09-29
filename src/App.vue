@@ -15,7 +15,9 @@ import MenuView from './views/MenuView.vue';
     <MenuView />
   </main>
   <footer>
-    <p class="text_footer text_footer">3157365656 - DOMICILIOS</p>
+    <p class="text_footer text_footer">
+      DOMICILIOS <span class="guion">-</span> 3157365656
+    </p>
   </footer>
 </template>
 
@@ -65,5 +67,21 @@ import MenuView from './views/MenuView.vue';
 footer {
   height: 20px;
   background-color: red !important;
+}
+
+@media screen and (max-width: 800px) {
+  .guion {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 4rem;
+  }
+  .text_logo {
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+  }
 }
 </style>
