@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="card" :class="`${false ? '' : 'agotado'}`">
+  <div class="card" :class="`${true ? '' : 'agotado'}`">
     <div class="card_text">
       <p class="bold">Pasta Boloñesa</p>
       <p class="light">
