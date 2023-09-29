@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="card" :class="`asdf${1234}`">
+  <div class="card" :class="`${false ? '' : 'agotado'}`">
     <div class="card_text">
       <p class="bold">Pasta Boloñesa</p>
       <p class="light">
@@ -36,6 +36,11 @@
   overflow: hidden;
   display: flex;
 }
+
+.agotado .card_img_container {
+  filter: grayscale(100%);
+}
+
 .card_text {
   margin: 25px;
   margin-right: 20px;
@@ -43,6 +48,10 @@
   flex-direction: column;
   justify-content: center;
   text-align: justify;
+}
+
+.agotado .card_text {
+  color: red;
 }
 
 .card_text p {

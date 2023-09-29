@@ -63,6 +63,7 @@ import MenuView from './views/MenuView.vue';
 }
 
 footer {
-  width: 100%;
+  height: 20px;
+  background-color: red !important;
 }
 </style>
