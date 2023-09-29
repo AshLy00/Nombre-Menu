@@ -8,7 +8,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, lorem ipsum
         dolor sit amet, consectetur adipiscing elit.
       </p>
-      <p class="bold">$22.000</p>
+      <p class="bold">$23.000</p>
     </div>
     <div class="card_img_container">
       <img
