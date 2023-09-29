@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="card" :class="`asdf${12}`">
+  <div class="card" :class="`asdf${1234}`">
     <div class="card_text">
       <p class="bold">Pasta Boloñesa</p>
       <p class="light">
