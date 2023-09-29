@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import MenuCard from './../components/MenuCard.vue';
 </script>
 
