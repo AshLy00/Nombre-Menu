@@ -52,6 +52,7 @@
 
 .agotado .card_text {
   color: red;
+  text-decoration: line-through;
 }
 
 .card_text p {
