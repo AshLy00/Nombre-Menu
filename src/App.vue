@@ -83,5 +83,9 @@ footer {
     font-size: 1.5rem;
     letter-spacing: 10px;
   }
+
+  .line {
+    width: 400px;
+  }
 }
 </style>

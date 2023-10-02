@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="card" :class="`${false ? '' : 'agotado'}`">
+  <div class="card" :class="`${true ? '' : 'agotado'}`">
     <div class="card_text">
       <p class="bold">Pasta Boloñesa</p>
       <p class="light">
@@ -12,7 +12,7 @@
     </div>
     <div class="card_img_container">
       <img
-        src="https://www.thewholesomedish.com/wp-content/uploads/2018/07/Best-Lasagna-550-500x375.jpg"
+        src="https://assets.delirec.com/images%2Fr2UlVN42QjXxE3RvkOpqTYn0Sis2%2Frecipe%2F92c7366a-3743-4e03-b6e5-1d7d1a0dc45f-Lasanha-de-Carne-mo%C3%ADda%F0%9F%8D%9D-gallery-0"
         alt="product image"
       />
     </div>
