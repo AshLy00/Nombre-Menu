@@ -1,14 +1,14 @@
 <script setup></script>
 
 <template>
-  <div class="card" :class="`${true ? '' : 'agotado'}`">
+  <div class="card" :class="`${false ? '' : 'agotado'}`">
     <div class="card_text">
       <p class="bold">Pasta Boloñesa</p>
       <p class="light">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, lorem ipsum
         dolor sit amet, consectetur adipiscing elit.
       </p>
-      <p class="bold">$23.000</p>
+      <p class="bold card_text_price">$23.000</p>
     </div>
     <div class="card_img_container">
       <img
@@ -50,9 +50,12 @@
   text-align: justify;
 }
 
-.agotado .card_text {
-  color: red;
+.agotado .card_text_price {
+  color: grey;
   text-decoration: line-through;
+}
+.agotado .card_text {
+  color: grey;
 }
 
 .card_text p {
