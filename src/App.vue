@@ -24,8 +24,8 @@ import MenuView from './views/MenuView.vue';
 <style scoped>
 .logo {
   font-size: 6rem;
-  margin: 3rem;
   margin-bottom: 1rem;
+  margin-top: 1.5rem;
 }
 .center {
   display: flex;
@@ -75,24 +75,26 @@ footer {
 
 @media screen and (max-width: 600px) {
   .logo {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
+    margin: 1.2rem;
+    margin-bottom: 0.3rem;
   }
   .text_logo {
-    font-size: 1.3rem;
-    letter-spacing: 10px;
+    font-size: 1rem;
+    letter-spacing: 8px;
+    margin: 0.8rem;
   }
   .line {
-    width: 330px;
+    width: 300px;
   }
   .menu_text {
     padding: 0px;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   footer {
-    margin-top: 30px;
+    margin-top: 20px;
   }
-
   .text_footer {
     font-size: 1rem;
     letter-spacing: 5px;
