@@ -70,9 +70,6 @@ footer {
   background-color: red !important;
 }
 
-@media screen and (max-width: 800px) {
-}
-
 @media screen and (max-width: 600px) {
   .logo {
     font-size: 3.2rem;

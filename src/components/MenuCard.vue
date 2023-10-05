@@ -72,6 +72,24 @@
   font-size: 1.1rem;
 }
 
+@media screen and (max-width: 360px) {
+  .card {
+    width: 300px;
+    height: 150px;
+  }
+  .card_img_container {
+    width: 450px;
+    height: 150px;
+  }
+  .light {
+    font-weight: 100;
+    font-size: 0.5rem;
+  }
+  .bold {
+    font-size: 0.8rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .card {
     width: 300px;
