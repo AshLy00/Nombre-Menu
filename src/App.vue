@@ -83,6 +83,7 @@ footer {
   }
   .line {
     width: 300px;
+    height: 1px;
   }
   .menu_text {
     padding: 0px;
