@@ -24,10 +24,6 @@ import MenuCard from './../components/MenuCard.vue';
   .card_container {
     grid-template-columns: repeat(1, 1fr);
     padding: 10px;
-    margin-right: 15px;
-    margin-left: 15px;
   }
 }
-
-@media screen and (min-width: 300px);
 </style>

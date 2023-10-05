@@ -71,4 +71,23 @@
 .bold {
   font-size: 1.1rem;
 }
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 300px;
+    height: 150px;
+  }
+  .card_img_container {
+    width: 400px;
+    height: 150px;
+  }
+  .light {
+    font-weight: 100;
+    font-size: 0.6rem;
+  }
+
+  .bold {
+    font-size: 0.9rem;
+  }
+}
 </style>
