@@ -57,8 +57,6 @@ import MenuView from './views/MenuView.vue';
   font-weight: 100;
   font-size: 1.5rem;
   letter-spacing: 20px;
-}
-.text_footer {
   padding: 30px;
   text-align: center;
   background-color: black;
@@ -68,31 +66,37 @@ import MenuView from './views/MenuView.vue';
 
 footer {
   height: 20px;
+  margin-top: 10px;
   background-color: red !important;
 }
 
 @media screen and (max-width: 800px) {
-  .guion {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 600px) {
   .logo {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .text_logo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 10px;
   }
-
   .line {
-    width: 350px;
+    width: 330px;
   }
   .menu_text {
-    padding: 5px;
-    margin-top: 30px;
+    padding: 0px;
+    margin-top: 15px;
     margin-bottom: 30px;
+  }
+  footer {
+    margin-top: 30px;
+  }
+
+  .text_footer {
+    font-size: 1rem;
+    letter-spacing: 5px;
+    padding: 25px;
   }
 }
 </style>
