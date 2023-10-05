@@ -93,7 +93,7 @@ footer {
     margin-top: 20px;
   }
   .text_footer {
-    font-size: 1rem;
+    font-size: 0.9rem;
     letter-spacing: 5px;
     padding: 25px;
   }
