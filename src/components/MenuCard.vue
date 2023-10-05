@@ -78,16 +78,15 @@
     height: 150px;
   }
   .card_img_container {
-    width: 400px;
+    width: 450px;
     height: 150px;
   }
   .light {
     font-weight: 100;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
-
   .bold {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 </style>

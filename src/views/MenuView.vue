@@ -7,6 +7,9 @@ import MenuCard from './../components/MenuCard.vue';
     <MenuCard />
     <MenuCard />
     <MenuCard />
+    <MenuCard />
+    <MenuCard />
+    <MenuCard />
   </div>
 </template>
 
