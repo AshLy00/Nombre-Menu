@@ -24,13 +24,13 @@
   border: solid 1px lightgrey;
   border-radius: 20px;
   width: 350px;
-  height: 200px;
+  height: 190px;
   display: flex;
   align-items: center;
 }
 .card_img_container {
-  width: 500px;
-  height: 200px;
+  width: 520px;
+  height: 190px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
@@ -43,7 +43,7 @@
 
 .card_text {
   margin: 15px;
-  margin-right: 10px;
+  margin-right: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,7 +59,9 @@
 }
 
 .card_text p {
-  margin: 10px;
+  margin: 7px;
+  padding-right: 15px;
+  padding-left: 5px;
 }
 .light {
   font-weight: 100;

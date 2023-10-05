@@ -90,13 +90,9 @@ footer {
     width: 350px;
   }
   .menu_text {
-    padding: 10px;
+    padding: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
-    background-color: black;
-    width: 100%;
-    color: white;
   }
 }
 </style>
