@@ -23,14 +23,14 @@
 .card {
   border: solid 1px lightgrey;
   border-radius: 20px;
-  width: 500px;
-  height: 250px;
+  width: 350px;
+  height: 200px;
   display: flex;
   align-items: center;
 }
 .card_img_container {
-  width: 738px;
-  height: 250px;
+  width: 500px;
+  height: 200px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
@@ -42,8 +42,8 @@
 }
 
 .card_text {
-  margin: 25px;
-  margin-right: 20px;
+  margin: 15px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,10 +63,10 @@
 }
 .light {
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .bold {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 </style>

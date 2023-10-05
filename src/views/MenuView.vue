@@ -14,7 +14,6 @@ import MenuCard from './../components/MenuCard.vue';
 .card_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   justify-items: center;
   row-gap: 30px;
   column-gap: 30px;

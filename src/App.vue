@@ -47,6 +47,7 @@ import MenuView from './views/MenuView.vue';
 .menu_text {
   padding: 10px;
   margin-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
   background-color: black;
   width: 100%;
@@ -62,6 +63,7 @@ import MenuView from './views/MenuView.vue';
   text-align: center;
   background-color: black;
   color: white;
+  margin-top: 10px;
 }
 
 footer {
@@ -85,7 +87,16 @@ footer {
   }
 
   .line {
-    width: 400px;
+    width: 350px;
+  }
+  .menu_text {
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: white;
   }
 }
 </style>
