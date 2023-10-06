@@ -41,7 +41,7 @@ import MenuView from './views/MenuView.vue';
 .text_logo {
   font-weight: 100;
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 20px;
 }
 .menu_text {
@@ -100,7 +100,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1650px) {
+@media screen and (min-width: 1650px) {
   .logo {
     font-size: 5.9rem;
     margin: 1.5rem;
