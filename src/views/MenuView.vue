@@ -1,17 +1,11 @@
 <script setup>
 import MenuCard from './../components/MenuCard.vue';
+import { products } from './../database/card_database.js';
 </script>
 
 <template>
   <div class="card_container">
-    <MenuCard />
-    <MenuCard />
-    <MenuCard />
-    <MenuCard />
-    <MenuCard />
-    <MenuCard />
-    <MenuCard />
-    <MenuCard />
+    <MenuCard v-for="p in products" :product="p" />
   </div>
 </template>
 

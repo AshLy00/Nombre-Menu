@@ -1,20 +1,22 @@
-<script setu></script>
+<script setup>
+const props = defineProps({
+  product: {
+    type: Object,
+  },
+});
+</script>
 
 <template>
-  <div class="card" :class="`${true ? '' : 'agotado'}`">
+  <div class="card" :class="`${product.available ? '' : 'agotado'}`">
     <div class="card_text">
-      <p class="bold">Pasta Boloñesa</p>
+      <p class="bold">{{ product.product }}</p>
       <p class="light">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, lorem ipsum
-        dolor sit amet, consectetur adipiscing elit.
+        {{ product.description }}
       </p>
-      <p class="bold card_text_price">$23.000</p>
+      <p class="bold card_text_price">{{ product.price }}</p>
     </div>
     <div class="card_img_container">
-      <img
-        src="https://assets.delirec.com/images%2Fr2UlVN42QjXxE3RvkOpqTYn0Sis2%2Frecipe%2F92c7366a-3743-4e03-b6e5-1d7d1a0dc45f-Lasanha-de-Carne-mo%C3%ADda%F0%9F%8D%9D-gallery-0"
-        alt="product image"
-      />
+      <img :src="product.image_url" alt="product image" />
     </div>
   </div>
 </template>
@@ -31,12 +33,15 @@
   transition-duration: 0.7s;
 }
 .card_img_container {
-  width: 520px;
+  width: 260px;
   height: 190px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
   display: flex;
+  transition-property: width;
+  transition-property: height;
+  transition-duration: 0.2s;
 }
 
 .agotado .card_img_container {
@@ -45,11 +50,11 @@
 
 .card_text {
   margin: 15px;
-  margin-right: 5px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: justify;
+  text-align: start;
   transition-property: font-size;
   transition-duration: 0.7s;
 }
@@ -100,19 +105,19 @@
 
 @media screen and (max-width: 600px) {
   .card {
-    width: 300px;
-    height: 150px;
+    width: 310px;
+    height: 160px;
   }
   .card_img_container {
-    width: 450px;
-    height: 150px;
+    width: 220px;
+    height: 160px;
   }
   .light {
     font-weight: 100;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .bold {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 </style>
