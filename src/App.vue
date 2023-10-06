@@ -70,7 +70,7 @@ footer {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .logo {
     font-size: 3.2rem;
     margin: 1.2rem;
@@ -140,7 +140,7 @@ footer {
     margin-top: 20px;
   }
   .logo {
-    font-size: 5.5rem;
+    font-size: 6rem;
     margin-bottom: 1rem;
     margin-top: 1.5rem;
   }
