@@ -5,7 +5,7 @@ export const products = [
     image_url:
       'https://firebasestorage.googleapis.com/v0/b/bielo20.appspot.com/o/card_example_db%2F1.png?alt=media&token=41462f1a-7832-4cda-8087-e507ee617966&_gl=1*agsut8*_ga*NDIyNTM0MTM5LjE2ODU4MzE3Mzk.*_ga_CW55HF8NVT*MTY5NjAwNDEwMi4xNS4xLjE2OTYwMDUzODkuNjAuMC4w',
     price: '$63.37',
-    available: false,
+    available: true,
   },
   {
     product: 'Carrot Orange',
@@ -21,7 +21,7 @@ export const products = [
     image_url:
       'https://firebasestorage.googleapis.com/v0/b/bielo20.appspot.com/o/card_example_db%2F3.png?alt=media&token=68a73aa0-34db-4f9e-9f99-7d4a92c84e8b&_gl=1*uczu10*_ga*NDIyNTM0MTM5LjE2ODU4MzE3Mzk.*_ga_CW55HF8NVT*MTY5NjAwNDEwMi4xNS4xLjE2OTYwMDY1MDkuNC4wLjA.',
     price: '$75.16',
-    available: false,
+    available: true,
   },
   {
     product: 'White Wine',
@@ -45,7 +45,7 @@ export const products = [
     image_url:
       'https://firebasestorage.googleapis.com/v0/b/bielo20.appspot.com/o/card_example_db%2F6.png?alt=media&token=c477e2a0-c28b-4eee-9a63-6142845cfd69&_gl=1*1b0iob0*_ga*NDIyNTM0MTM5LjE2ODU4MzE3Mzk.*_ga_CW55HF8NVT*MTY5NjAwNDEwMi4xNS4xLjE2OTYwMDY1MTYuNTcuMC4w',
     price: '$69.19',
-    available: false,
+    available: true,
   },
   {
     product: 'Red Onions',
@@ -53,7 +53,7 @@ export const products = [
     image_url:
       'https://firebasestorage.googleapis.com/v0/b/bielo20.appspot.com/o/card_example_db%2F7.png?alt=media&token=67be9dda-1337-4dd0-bd72-55ef57eb9fc6&_gl=1*3px2uv*_ga*NDIyNTM0MTM5LjE2ODU4MzE3Mzk.*_ga_CW55HF8NVT*MTY5NjAwNDEwMi4xNS4xLjE2OTYwMDY1MTguNTUuMC4w',
     price: '$67.25',
-    available: false,
+    available: true,
   },
   {
     product: 'Goulash',
@@ -78,5 +78,13 @@ export const products = [
       'https://firebasestorage.googleapis.com/v0/b/bielo20.appspot.com/o/card_example_db%2F10.png?alt=media&token=5e15fcbb-23e5-4115-ba29-8544bae04fb8&_gl=1*kvbao1*_ga*NDIyNTM0MTM5LjE2ODU4MzE3Mzk.*_ga_CW55HF8NVT*MTY5NjAwNDEwMi4xNS4xLjE2OTYwMDY1MjQuNDkuMC4w',
     price: '$23.44',
     available: false,
+  },
+  {
+    product: 'Lasaña Boloñesa',
+    description: 'Muy rica, la comida',
+    image_url:
+      'https://cdn.cookmonkeys.es/recetas/medium/lasana-bolonesa-en-termomix-14041.jpg',
+    price: '$10.44',
+    available: true,
   },
 ];

@@ -16,12 +16,24 @@ const props = defineProps({
       <p class="bold card_text_price">{{ product.price }}</p>
     </div>
     <div class="card_img_container">
+      <div class="disponible">NO DISPONIBLE</div>
       <img :src="product.image_url" alt="product image" />
     </div>
   </div>
 </template>
 
 <style scoped>
+.agotado .disponible {
+  z-index: 8;
+  position: absolute;
+  top: 43%;
+  left: 19%;
+  color: white;
+  display: initial;
+}
+.disponible {
+  display: none;
+}
 .card {
   border: solid 1px lightgrey;
   border-radius: 20px;
@@ -44,6 +56,12 @@ const props = defineProps({
   transition-duration: 0.2s;
 }
 
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .agotado .card_img_container {
   filter: grayscale(100%);
 }
@@ -51,6 +69,7 @@ const props = defineProps({
 .card_text {
   margin: 15px;
   margin-right: 10px;
+  width: 190px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,9 +87,9 @@ const props = defineProps({
 }
 
 .card_text p {
-  margin: 7px;
-  padding-right: 15px;
-  padding-left: 5px;
+  margin: 5px;
+  padding-right: 10px;
+  padding-left: 15px;
 }
 .light {
   font-weight: 100;
@@ -117,6 +136,11 @@ const props = defineProps({
     font-size: 0.7rem;
   }
   .bold {
+    font-size: 0.9rem;
+  }
+  .agotado .disponible {
+    top: 43%;
+    left: 15%;
     font-size: 0.9rem;
   }
 }
