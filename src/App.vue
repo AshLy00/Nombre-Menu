@@ -66,8 +66,8 @@ import MenuView from './views/MenuView.vue';
 
 footer {
   height: 20px;
+  width: 100%;
   margin-top: 10px;
-  background-color: red !important;
 }
 
 @media screen and (max-width: 600px) {
@@ -124,9 +124,20 @@ footer {
     margin-top: 20px;
   }
   .text_footer {
-    font-size: 1rem;
-    letter-spacing: 5px;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
     padding: 25px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .text_footer {
+    font-size: 1rem;
+    letter-spacing: 3px;
+    padding: 25px;
+  }
+  footer {
+    margin-top: 20px;
   }
 }
 </style>
