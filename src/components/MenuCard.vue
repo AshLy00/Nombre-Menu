@@ -1,4 +1,4 @@
-<script setup></script>
+<script setu></script>
 
 <template>
   <div class="card" :class="`${true ? '' : 'agotado'}`">
@@ -90,7 +90,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .card {
     width: 300px;
     height: 150px;
