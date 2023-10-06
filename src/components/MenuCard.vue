@@ -27,6 +27,8 @@
   height: 190px;
   display: flex;
   align-items: center;
+  transition-property: width;
+  transition-duration: 0.7s;
 }
 .card_img_container {
   width: 520px;
@@ -48,6 +50,8 @@
   flex-direction: column;
   justify-content: center;
   text-align: justify;
+  transition-property: font-size;
+  transition-duration: 0.7s;
 }
 
 .agotado .card_text_price {
@@ -66,10 +70,14 @@
 .light {
   font-weight: 100;
   font-size: 0.7rem;
+  transition-property: font-size;
+  transition-duration: 0.7s;
 }
 
 .bold {
   font-size: 1.1rem;
+  transition-property: font-size;
+  transition-duration: 0.7s;
 }
 
 @media screen and (max-width: 360px) {

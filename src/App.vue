@@ -26,6 +26,8 @@ import MenuView from './views/MenuView.vue';
   font-size: 6rem;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
+  transition-property: font-size;
+  transition-duration: 0.7s;
 }
 .center {
   display: flex;
@@ -37,12 +39,16 @@ import MenuView from './views/MenuView.vue';
   width: 600px;
   height: 2px;
   background-color: grey;
+  transition-property: width;
+  transition-duration: 0.7s;
 }
 .text_logo {
   font-weight: 100;
   margin: 1rem;
   font-size: 1.5rem;
   letter-spacing: 20px;
+  transition-property: font-size;
+  transition-duration: 0.7s;
 }
 .menu_text {
   padding: 10px;
@@ -52,6 +58,8 @@ import MenuView from './views/MenuView.vue';
   background-color: black;
   width: 100%;
   color: white;
+  transition-property: font-size;
+  transition-duration: 0.7s;
 }
 .text_footer {
   font-weight: 100;
@@ -62,6 +70,8 @@ import MenuView from './views/MenuView.vue';
   background-color: black;
   color: white;
   margin-top: 10px;
+  transition-property: font-size;
+  transition-duration: 0.7s;
 }
 
 footer {
