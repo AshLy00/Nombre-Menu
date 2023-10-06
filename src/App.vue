@@ -99,4 +99,34 @@ footer {
     padding: 25px;
   }
 }
+
+@media screen and (max-width: 1650px) {
+  .logo {
+    font-size: 5.9rem;
+    margin: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+  .text_logo {
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+    margin: 0.8rem;
+  }
+  .line {
+    width: 500px;
+    height: 1px;
+  }
+  .menu_text {
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  .text_footer {
+    font-size: 1rem;
+    letter-spacing: 5px;
+    padding: 25px;
+  }
+}
 </style>
