@@ -4,7 +4,7 @@ import MenuView from './views/MenuView.vue';
 
 <template>
   <header class="center">
-    <h1 class="logo">NOMBRE</h1>
+    <h1 class="logo">ITALY</h1>
     <div class="line"></div>
     <p class="text_logo">RESTAURANTE</p>
     <div class="menu_text">
